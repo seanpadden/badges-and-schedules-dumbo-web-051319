@@ -9,6 +9,7 @@ def batch_badge_creator(attendees)
 end
 
 def assign_rooms(attendees)
+  names_and_rooms = []
   attendees.each do |name, index|
   	"My name is #{name}. I am in position #{index} in the array"
 end
