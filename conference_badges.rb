@@ -20,4 +20,5 @@ def printer(attendees)
   end
   assign_rooms(attendees).collect do |badges|
     puts badges
+  end 
 end
