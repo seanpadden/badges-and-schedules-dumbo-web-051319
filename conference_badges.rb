@@ -11,6 +11,6 @@ end
 def assign_rooms(attendees)
   names_and_rooms = []
   attendees.each do |name, index|
-  	names_and_rooms.concat("My name is #{name}. I am in position #{index} in the array")
+  	"Hello, #{name}! You will be assigned to room #{index}!"
 end
 end
